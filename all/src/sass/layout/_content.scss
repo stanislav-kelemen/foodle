@@ -29,7 +29,7 @@
     padding-top: 9px; 
     margin-top: -10px;
     text-transform: uppercase;
-    color: #D9D9D9;
+    color: #8F8F8F;
     width: -moz-max-content;
     width: -webkit-max-content;
     width: max-content;
@@ -80,9 +80,11 @@
 }
 
 .salat-na-snidanok {
+    line-height: 20px;
     font-weight: 800;
     padding-right: 0 !important;
     padding-left: 10px !important;
+    padding-top: 7px;
 }
 
 .left-col-sportmenu {
@@ -113,7 +115,10 @@
 }
 
 .sportmenu-ingridients {
+    position: relative;
+    z-index: 2;
     padding: 0 !important;
+    margin-left: -7px;
     margin-bottom: -10px;
     display: none;
     -moz-transition: all 500ms ease-out;
@@ -123,8 +128,8 @@
 
 .sportmenu-preparing {
     padding: 0 !important;
+    margin-left: -7px;
     margin-bottom: -10px;
-    word-wrap: break-word;
     display: none;
     -moz-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
@@ -132,8 +137,23 @@
 }
 
 .sportmenu-plus {
+    font-size: 14px;
     margin: 0 !important;
     margin-left: auto !important;
+}
+
+.left-col-sportmenu .mt-auto {
+    font-size: 14px;
+    .fa-clock {
+        font-size: 16px;
+    }
+}
+
+.last-sportmenu .mt-auto {
+    font-size: 14px;
+    .fa-clock {
+        font-size: 16px;
+    }
 }
 
 .left-col-sportmenu {
@@ -178,13 +198,19 @@
     }
  }
 
- .sportmenu-images .last-sportmenu {
+.last-sportmenu {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sportmenu.jpg);
+    position: relative;
+    z-index: 0;
     transform: scale(1.0);
+    transition: none;
  }
 
  .last-sportmenu:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sportmenu.jpg);
+    transform: scale(1.0);
+    transition: none;
+    box-shadow: none;
 }
 
 .snidanok-time {
@@ -200,8 +226,10 @@
 }
 
 .left-sidebar {
+    position: relative;
+    z-index: 2;
     padding-left: -5px !important;
-    box-shadow: 100px 50px 250px 120px rgba(255,255,255,1);
+    box-shadow: -125px 50px 200px 0px rgba(255,255,255, 0.4);
 }
 
 .left-sidebar .fa-clock {
@@ -244,4 +272,10 @@
 .rekomendovano {
     margin-top: 3px;
     font-size: 10px;
+}
+
+.eggs {
+    margin-top: -18px;
+    margin-right: -20px;
+    font-size: 8px;
 }

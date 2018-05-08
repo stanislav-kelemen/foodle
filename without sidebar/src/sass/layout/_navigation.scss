@@ -1,0 +1,85 @@
+.navbar-c {
+    background-color: black;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.col-nav-c-logo {
+    width: 60px;
+}
+
+.col-nav-c-username {
+    width: 140px;
+}
+
+.col-nav-c-username-small {
+    width: 20px;
+}
+
+.username-navbar {
+    margin-right: 10px; 
+}
+
+.logo-c {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-username {
+    text-transform: uppercase;
+    color: #D9D9D9;
+}
+
+.nav-username:hover {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+.dropdown-custom {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    border: 0px solid black;
+}
+
+.list-custom:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #D9D9D9;
+}
+
+.list-custom {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #D9D9D9;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    transform: translate(-50%, 0) !important;
+}
+
+.dropdown-menu-small {
+    left: -180% !important;
+    right: auto !important;
+    transform: translate(-50%, 0) !important;
+}
+
+.list-custom-1 {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #D9D9D9;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.topped-margin {
+    height: 60px;
+}
