@@ -109,6 +109,7 @@
 }
 
 .salat-na-snidanok {
+    font-size: 18px;
     line-height: 20px;
     padding-top: 7px;
     font-weight: 800;
@@ -125,12 +126,9 @@
 }
 
 .sportmenu-insider {
+    font-size: 8px;
     height: 180px;
 }
-
- .sportmenu-insider p {
-     font-size: 8px;
- }
 
 .sportmenu-stars {
     font-size: 14px;
@@ -287,7 +285,8 @@
 }
 
 .eggs {
-    margin-top: -18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     margin-right: -20px;
     font-size: 8px;
 }

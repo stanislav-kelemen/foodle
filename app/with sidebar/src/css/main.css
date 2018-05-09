@@ -140,6 +140,7 @@ body {
   padding-left: 0 !important; }
 
 .salat-na-snidanok {
+  font-size: 18px;
   line-height: 20px;
   font-weight: 800;
   padding-right: 0 !important;
@@ -153,9 +154,7 @@ body {
   height: 103px; }
 
 .sportmenu-insider {
-  height: 180px; }
-
-.sportmenu-insider p {
+  height: 180px;
   font-size: 8px; }
 
 .sportmenu-stars {
@@ -300,6 +299,7 @@ body {
   font-size: 10px; }
 
 .eggs {
-  margin-top: -18px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   margin-right: -20px;
   font-size: 8px; }
