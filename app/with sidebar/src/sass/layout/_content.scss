@@ -2,6 +2,31 @@
     margin-top: 20px;
 }
 
+.strilka-left {
+    margin-left: -15px;
+}
+
+.strilka-right {
+    margin-right: -15px;
+}
+
+.scale-allow {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 5px;
+}
+
+#carouselExampleControls2 .carousel-inner{
+    margin-bottom: -35px !important;
+}
+
+.scale-allow-last {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 5px;
+    margin-bottom: -60px;
+}
+
 .bigletters {
     text-transform: uppercase;
 }
@@ -66,7 +91,19 @@
 
 .snidanok {
     margin-top: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.obid {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.vecherya {
+    margin-top: -5px;
+    margin-bottom: 0px;
     font-size: 18px;
 }
 
@@ -77,6 +114,7 @@
 .last-sportmenu {
     margin-left: -5px;
     padding-left: 0 !important;
+    margin-right: 15px;
 }
 
 .salat-na-snidanok {
@@ -176,6 +214,7 @@
 }
 
 .sportmenu-images:hover {
+    position: relative;
     background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)), url(../img/sportmenu.jpg);
     transform: scale(1.1);
     z-index: 2;
@@ -217,7 +256,7 @@
 
 .register-button {
     border-radius: 20px !important;
-    margin-top: 300px !important;
+    margin-top: 290px !important;
     font-size: 10px !important;
     padding-left: -10px !important;
     padding-right: -10px !important;

@@ -11,7 +11,7 @@ body {
   width: 60px; }
 
 .col-nav-c-username {
-  width: 140px; }
+  width: 0px; }
 
 .col-nav-c-username-small {
   width: 20px; }
@@ -129,17 +129,29 @@ body {
 
 .snidanok {
   width: 85%;
-  margin-top: 35px;
+  margin-top: 0px;
   margin-bottom: 25px;
   font-size: 18px; }
 
 .snidanok-midlle {
   margin-top: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 5px !important;
   font-size: 18px; }
   .snidanok-midlle .fa-clock {
     font-size: 22px;
     margin-left: 40px; }
+
+.vecherya {
+  width: 85%;
+  margin-top: -5px !important;
+  margin-bottom: 5px !important;
+  font-size: 18px; }
+
+.obid {
+  width: 85%;
+  margin-top: -5px !important;
+  margin-bottom: 5px !important;
+  font-size: 18px; }
 
 .snidanok-time-midlle {
   margin-left: 4px; }
@@ -218,6 +230,9 @@ body {
   padding-top: 10px;
   padding-right: 10px; }
 
+.last-block-in-this {
+  margin-bottom: -30px !important; }
+
 .sportmenu-images {
   height: 180px;
   position: relative;
@@ -242,7 +257,7 @@ body {
     display: none; }
   .sportmenu-images:hover .left-col-sportmenu {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sportmenu.jpg);
-    color: white; }
+    color: white !important; }
 
 .sportmenu-images .last-sportmenu {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sportmenu.jpg);
@@ -298,6 +313,19 @@ body {
 .rekomendovano {
   font-size: 10px; }
 
+.scale-allow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 5px; }
+
+.last-sportmenu-new {
+  margin-right: 15px; }
+  .last-sportmenu-new .left-col-sportmenu {
+    margin-right: 15px; }
+
+.snidanok-midlle {
+  margin-bottom: -5px; }
+
 .shadow-right {
   box-shadow: 100px -70px 250px 40px white; }
 
@@ -310,3 +338,17 @@ body {
   margin-bottom: 10px;
   margin-right: -20px;
   font-size: 8px; }
+
+.strilka-right {
+  margin-right: -80px; }
+
+.strilka-left {
+  margin-left: -50px; }
+
+.strilka-right-last {
+  margin-right: -80px;
+  margin-top: 25px; }
+
+.strilka-left-last {
+  margin-left: -50px;
+  margin-top: 25px; }

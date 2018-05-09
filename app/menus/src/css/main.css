@@ -81,12 +81,77 @@ body {
 .bigletters {
   text-transform: uppercase; }
 
+.strilka-right {
+  margin-right: 100px; }
+
+.strilka-left {
+  margin-left: -80px; }
+
+.strilka-right-last {
+  margin-right: 120px !important;
+  margin-top: 45px; }
+
+.strilka-left-last {
+  margin-left: -80px;
+  margin-top: 45px; }
+
+.grblock-top {
+  box-shadow: -100px 0px 200px -20px white;
+  color: white;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: -200px !important;
+  margin-left: 5px; }
+
+.grblock-middle {
+  box-shadow: -100px 0px 200px -20px white;
+  color: white;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: -200px !important;
+  margin-left: 10px; }
+
+.grblock {
+  box-shadow: -100px 0px 200px -20px white;
+  color: white;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: -170px !important;
+  margin-left: -10px; }
+
+.green-rect {
+  box-shadow: -100px -20px 200px 0 10px white;
+  position: absolute;
+  background: #AFFA4D;
+  width: 100px;
+  height: 100px;
+  margin-left: -80px;
+  z-index: 1; }
+
+.red-rect {
+  box-shadow: -100px -20px 200px 10px white;
+  margin-top: 100px;
+  position: absolute;
+  background: #F73C52;
+  margin-left: -80px;
+  width: 100px;
+  height: 100px;
+  z-index: 1; }
+
 .lineunder {
   border: none;
   background-color: black;
   color: black;
   height: 2px;
   width: 70px; }
+
+.sportmenu-images-last {
+  padding-right: -50px; }
+
+.scale-allow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 5px; }
 
 .carrot-block {
   margin-top: 10px; }
@@ -128,6 +193,30 @@ body {
 
 .days-menu {
   width: 98%; }
+
+.travneve {
+  margin-top: 25px;
+  margin-left: -15px !important;
+  margin-bottom: -10px;
+  font-size: 22px;
+  margin-left: -19px; }
+
+.na-lito {
+  margin-top: 25px;
+  margin-left: -15px !important;
+  margin-bottom: -10px;
+  font-size: 22px;
+  margin-left: -19px; }
+
+.last-i-ever-do {
+  margin-bottom: -30px; }
+
+.zozh {
+  margin-top: 25px;
+  margin-left: -15px !important;
+  margin-bottom: -10px;
+  font-size: 22px;
+  margin-left: -19px; }
 
 .snidanok {
   margin-top: 25px;
@@ -304,23 +393,9 @@ body {
   margin-top: 3px;
   font-size: 10px; }
 
-.grblock {
-  box-shadow: -100px 0px 200px -20px white;
-  color: white;
-  padding-left: 0;
-  margin-left: -44px; }
-
-.green-rect {
-  position: absolute;
-  background: #AFFA4D;
-  width: 100px;
-  height: 100px;
-  z-index: 1; }
-
-.red-rect {
-  margin-top: 100px;
-  position: absolute;
-  background: #F73C52;
-  width: 100px;
-  height: 100px;
-  z-index: 1; }
+.carousel-control-next {
+  opacity: 1 !important; }
+  .carousel-control-next .carousel-control-next-icon {
+    opacity: .5 !important; }
+  .carousel-control-next .carousel-control-next-icon:hover {
+    opacity: 1 !important; }
