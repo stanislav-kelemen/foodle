@@ -1,4 +1,4 @@
 # foodle
-Front-end для навчального проекту по розробці веб-сервісу для підбору індивідуального меню
+Front-end for the university project for composing personalized diet
 
 Check it online https://stanislav-kelemen.github.io/foodle/
